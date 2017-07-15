@@ -1,4 +1,4 @@
-#pragma once
+/*#pragma once
 #include "Model.h"
 #include <GL/glew.h>
 
@@ -16,3 +16,4 @@ private:
 	Model* _model;
 };
 
+*/

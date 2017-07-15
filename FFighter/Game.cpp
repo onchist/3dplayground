@@ -24,7 +24,7 @@ void Game::init() {
 	display = new Display("Lul", 1280, 720);
 	shader = new Shader("shaders/base.loader");
 	camera = new Camera(glm::vec3(0.0f, 0.0f, 0.0f));
-	madel = new Model("models/nanosuit/nanosuit.obj");
+	madel = new Model("models/nanosuit/nanosuit.OBJ");
 	glm::vec3 color = glm::vec3(1.0f, 1.0f, 1.0f);
 	LightMaterial lightMat;
 	lightMat.ambient = color * 0.1f;
